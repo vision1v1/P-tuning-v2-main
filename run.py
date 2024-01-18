@@ -6,7 +6,7 @@ from typing import Dict
 
 import datasets
 import transformers
-from transformers import set_seed, Trainer
+from transformers import set_seed
 from transformers.trainer_utils import get_last_checkpoint
 
 from arguments import get_args
