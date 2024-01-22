@@ -26,7 +26,6 @@ def debug_tokenizer():
     # encoded_input = tokenizer(text, return_tensors='pt')
     # print(encoded_input)
 
-
 def debug_model_inputs():
     """
     调试模型输入
@@ -37,7 +36,6 @@ def debug_model_inputs():
     
     for key, value in encoded_input.items():
         print(key, value, sep='\n', end='\n\n')
-    
 
 def debug_config():
     """
@@ -45,7 +43,6 @@ def debug_config():
     """
     config = BertConfig.from_pretrained(bert_large_uncased_path)
     print("config =", config, sep='\n', end='\n\n')
-
 
 def debug_model():
     """
